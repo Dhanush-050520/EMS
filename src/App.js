@@ -6,14 +6,17 @@ import Dashboard from './Dashboard';
 const App = () => {
   return (
     <div>
+     
       <BrowserRouter>
       <Routes>
+      
+         <Route path ='/' element={<Login/>}/>
          <Route path ='dashboard' element={<Dashboard/>}/>
-
+          
       
       </Routes>
       </BrowserRouter>
-      <Login/>  
+     
   
  
 

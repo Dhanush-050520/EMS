@@ -1,14 +1,9 @@
 {
   "users": [
     {
-    
-      "username": "sukumar@gmail.com",
-      "password": "12345"
-    },
-    {
-      "username": "dhanush@gmail.com",
-      "password": "56789"
-
+      "id": 1,
+      "username": "error@gmail.com",
+      "password": "youtube"
     }
   ]
 }

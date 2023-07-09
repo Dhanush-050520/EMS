@@ -25,6 +25,7 @@ const navigate=useNavigate();
         const usercred=res2.find((ele)=>{ return ele.username===user && ele.password===pass})
         if(usercred){
              console.log("login success")
+             navigate('dashboard' )
         }
         else{
              console.log("login failure")
@@ -56,7 +57,7 @@ const navigate=useNavigate();
    
     <Form.Control type="password" placeholder="Password" name="pass" value={pass} onChange={(e)=>changeHandler(e)} style={{borderRadius:"7px"}}/>
   </Form.Group><br/>
-  <Button type="submit"  onClick={()=>navigate("dashboard")}variant="primary"  className='logdesign'>
+  <Button type="submit"  variant="primary"  className='logdesign'>
     Login
   </Button>
 </Form>
