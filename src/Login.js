@@ -25,7 +25,7 @@ const navigate=useNavigate();
         const usercred=res2.find((ele)=>{ return ele.username===user && ele.password===pass})
         if(usercred){
              console.log("login success")
-             navigate('dashboard' )
+             navigate('admin' )
         }
         else{
              console.log("login failure")
