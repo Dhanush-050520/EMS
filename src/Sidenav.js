@@ -14,6 +14,7 @@ import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import {Link,Outlet} from 'react-router-dom';
 import { FaTh } from "react-icons/fa";
+import { Card } from 'react-bootstrap';
 const drawerWidth = 240;
 
 const openedMixin = (theme) => ({
@@ -123,12 +124,12 @@ export default function Sidenav() {
           </IconButton>
         </DrawerHeader>
         <Divider />
-        <div>
+        {/* <Card style={{backgroundColor:"black"}}> */}
         <List><FaTh/><Link  to='dashboard'>Dashboard</Link></List>
         <List><Link  to='empdetails'>Empdetails</Link></List>
         <List><Link  to='addemp'>AddEmp</Link></List>
         <List><Link  to='logout'>Logout</Link></List>
-        </div>
+        {/* </Card> */}
 
       </Drawer>
       <Box component="main" sx={{ flexGrow: 5, p: 3 }}>
