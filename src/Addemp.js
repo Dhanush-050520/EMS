@@ -19,15 +19,19 @@ const Addemp = () => {
     setData({ ...empData, [e.target.name]: e.target.value });
   };
 
-  console.log(empData);
+ 
 
   const subHandler = (e) => {
     e.preventDefault();
     axios
       .post("http://localhost:5001/posts", {
-        empData,
+        name:empName,
+        id:empId,
+        phone:empPhone,
+        address:empAddress,
+        department:empDepartment,
       })
-      .then((res) => console.log(res))
+      
       .catch((err) => console.log(err));
   };
 

@@ -1,7 +1,32 @@
 {
   "posts": [
     {
-      
+      "name": "Byku Rohini",
+      "id": "R170144",
+      "phone": "6281504450",
+      "address": "qwertyuiopsdfghj",
+      "department": "Developer"
+    },
+    {
+      "name": "A.Sundar",
+      "id": "R170145",
+      "phone": "9876534567",
+      "address": "qwertyuioijhgfdfvb",
+      "department": "Developer"
+    },
+    {
+      "name": "G.Dhanush",
+      "id": "R170154",
+      "phone": "2345676543",
+      "address": "mnbvcxdfghj",
+      "department": "Developer"
+    },
+    {
+      "name": "P.venkata manikanta sukumar",
+      "id": "R170198",
+      "phone": "987654321",
+      "address": "bgfertyujhvdxc",
+      "department": "Maintenance"
     }
   ]
 }
